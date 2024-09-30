@@ -24,14 +24,28 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Projeto de exemplo usando o framework [Nest](https://github.com/nestjs/nest).
 
-## Installation
+## Passo a passo para a criação deste projeto
+1. Abrir Prompt de Comando do Node (NodeJS command prompt)
+2. Instalar o Nest na máquina
 
 ```bash
-$ npm install
+$ npm install -g @nestjs/cli
 ```
 
+3. Criar projeto chamado _nest-messages_. Execute o comando a seguir dentro da pasta de sua preferência.
+```bash
+$ nest new nest-messages
+```
+
+4. Criar o módulo principal do sistema (MessagesModule). Execute o comando a seguir dentro da pasta criada no passo anterior. 
+```bash
+$ nest generate module messages
+```
+5. Verifique se o arquivo _src/messages/messages.module.ts_ foi criado
+
+ 
 ## Running the app
 
 ```bash
