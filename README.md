@@ -54,6 +54,10 @@ $ nest generate controller messages/messages --flat
 5.2. _--flat_ (opcional) indica para não criar um diretório separado para o controller. Você provavelmente irá querer um diretório separado em projetos maiores.  
 
 6. Definir as assinaturas das rotas dentro do controller
+- localhost:3000/messages (GET)
+- localhost:3000/messages (POST)
+- localhost:3000/messages/:id (GET)
+ 
 7. Instalar/Configurar a API client de sua preferência (Postman, Insomnia, VSCode REST extension, ...) 
 
  
@@ -87,13 +91,3 @@ $ npm run test:cov
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
-# nest-messages
