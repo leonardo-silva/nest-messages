@@ -43,14 +43,18 @@ $ nest new nest-messages
 ```bash
 $ nest generate module messages
 ```
+
 4.1. Verifique se o arquivo _src/messages/messages.module.ts_ foi criado
+
 4.2. Atualize a referência para o novo módulo dentro de _main.ts_
 
 5. Criar controller com o seguinte comando:
 ```bash
 $ nest generate controller messages/messages --flat
 ```
+
 5.1. _messages/messages_ indica para criar _MessagesController_ dentro da pasta _messages_
+
 5.2. _--flat_ (opcional) indica para não criar um diretório separado para o controller. Você provavelmente irá querer um diretório separado em projetos maiores.  
 
 6. Definir as assinaturas das rotas dentro do controller
