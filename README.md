@@ -62,7 +62,14 @@ $ nest generate controller messages/messages --flat
 - localhost:3000/messages (POST)
 - localhost:3000/messages/:id (GET)
  
-7. Instalar/Configurar a API client de sua preferência (Postman, Insomnia, VSCode REST extension, ...) 
+7. Instalar/Configurar a API client de sua preferência (Postman, Insomnia, VSCode REST extension, ...)
+
+8. Criar classe descrevendo as propriedades que o corpo da requisição deve ter. (Data Transfer Object - DTO). New file: src/messages/dtos/create-message.dto.ts
+ 
+9. Adicionar regras de validação na classe. É necessário instalar pacotes adicionais: 
+```bash
+$ npm install class-validator class-transformer
+```
 
  
 ## Running the app
